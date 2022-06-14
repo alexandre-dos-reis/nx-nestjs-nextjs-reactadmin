@@ -16,4 +16,8 @@ Nx is providing aliases for managing custom shared dependencies between all apps
 
 ### Get started
 
-- Create a new monorepo with the following command :
+
+```sh
+# Create a new monorepo with the following command
+npx create-nx-workspace happynrwl --preset=ts
+```
