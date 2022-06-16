@@ -1,12 +1,16 @@
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-import styles from './app.module.scss';
-import NxWelcome from './nx-welcome';
+import { Article } from "@nx-nestjs-nextjs-reactadmin/model";
 
 export function App() {
+
+  const article = new Article()
+  article.title = "My title"
+  article.content = "My content"
+
   return (
     <>
-      <NxWelcome title="admin" />
-      <div />
+      
+      <div>{article.title}</div>
+      <div>{article.content}</div>
     </>
   );
 }

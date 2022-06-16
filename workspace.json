@@ -6,6 +6,7 @@
     "admin-e2e": "apps/admin-e2e",
     "backend": "apps/backend",
     "front": "apps/front",
-    "front-e2e": "apps/front-e2e"
+    "front-e2e": "apps/front-e2e",
+    "model": "libs/model"
   }
 }
